@@ -25,7 +25,7 @@ const Base = ({ addBase, pizza }) => {
   return (
     <div className="base container">
 
-      <h3>Step 1: Choose Your Base</h3>
+      <h3>Step 1: Choose Your Base Site</h3>
       <motion.ul variants={ulContainervarient}>
         {bases.map(base => {
           let spanClass = pizza.base === base ? 'active' : '';
